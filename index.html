@@ -59,12 +59,12 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4 text-center">
                 <ul class="nav nav-pills nav-justified">
-                    <!-- <li>
-                        <a href="data/paper.pdf">
-                            <image src="img/paper_thumbnail.png" height="60px">
-                                <h4><strong>PDF(TBA)</strong></h4>
+                    <li>
+                        <a href="https://hero-slam.github.io">
+                            <image src="img/paperclip.png" height="60px">
+                                <h4><strong>PDF(Coming)</strong></h4>
                         </a>
-                    </li> -->
+                    </li>
                     <!-- <li>
                         <a href="data/supp.pdf">
                             <image src="img/supp_thumbnail.png" height="60px">
@@ -75,12 +75,12 @@
 
                     </li>
 
-                    <li>
-                            <a href="https://www.youtube.com/">
+                    <!-- <li>
+                            <a href="https://youtu.be/c3Yx2nGvi8o">
                             <image src="img/youtube_icon.png" height="60px"><br>
                                 <h4><strong>Video</strong></h4>
                             </a>
-                        </li>
+                        </li> -->
                     <li>
                         <a href="https://hero-slam.github.io">
                             <image src="img/github_pad.png" height="60px">
@@ -108,7 +108,11 @@
 
                 <p class="text-justify">
                     Simultaneous Localization and Mapping (SLAM) plays a crucial role in numerous applications including robotics, autonomous driving, and virtual reality. However, the robustness of SLAM, particularly in challenging or data-limited situations, remains an unresolved issue. In this paper, we introduce HERO-SLAM, a Hybrid Enhanced Robust Optimization methodology for neural SLAM, which combines the benefits of neural implicit field and feature-metric optimization. This unique hybrid method offers increased robustness in challenging environments, such as those involving sudden viewpoint changes or sparse data collection intervals. We also propose a hybrid novel optimization pipeline to optimize the multi-resolution implicit fields. Our comprehensive experimental results on benchmarking datasets validate the effectiveness of our hybrid approach, demonstrating its superior performance over existing implicit field-based methods in challenging scenarios. Overall, HERO-SLAM opens a new pathway toward improving the stability, performance, and applicability of visual SLAM methods in real-world applications.
-                <h3>
+                </p>
+                    <video id="v0" width="100%" autoplay loop muted controls>
+                        <source src="img/video.mp4" type="video/mp4" />
+                    </video>
+                    <h3>
                     Pipeline
                 </h3>
                 <p>Every newly captured frame would be aligned with the last frame for the camera pose estimation using feature-metric warping losses. The robustness and accuracy of tracking get improved, which in turn, facilitates the enhancement of mapping quality by optimizing the neural implicit field of multi-resolution feature encoding. The mapping module optimizes all keyframes from the keyframe database based on photometric reconstruction and depth supervision, following the volumetric rendering paradigm.</p>
